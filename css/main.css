@@ -37,7 +37,7 @@ html, body {
 	/* transition: var(--transition)!important; */
 }
 
-@media (width: 767px) {
+@media (max-width: 767px) {
 	.slider__layer--one {
 		background-position: 30%;
 	}
@@ -49,3 +49,15 @@ html, body {
 		background-position: 29%;
 	}
 }
+
+@media (max-width: 414px) {
+	.slider__layer--one {
+		background-position: 30%;
+	}
+
+	.slider__layer--two {
+		background-position: 52%;
+	}
+	.slider__layer--three {
+		background-position: 29%;
+	}
